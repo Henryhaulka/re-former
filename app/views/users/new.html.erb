@@ -11,3 +11,13 @@
 
 </form> --!>
 
+<%= form_tag(url: '/user', method: 'post') do %>
+    <%=label_tag(:username, 'Username:') %><br>
+    <%=text_field_tag(:username) %><br><br>
+    <%=label_tag(:email, 'Email:')%><br>
+    <%=text_field_tag(:email) %><br><br>
+    <%=label_tag(:password, 'Password') %><br>
+    <%=text_field_tag(:password)%><br><br>
+
+    <%= submit_tag "Save" %>
+<% end %>
