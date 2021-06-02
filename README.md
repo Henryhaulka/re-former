@@ -15,12 +15,12 @@
 Clone the repo using 'https://github.com/Henryhaulka/re-former'
 - Open your terminal
 - Cd into the cloned directory
-Run ```git checkout feature-branch```
-Run ```bundle install```
-Run ```rails db:create```
-Run ```rails db:migrate```
-Run ```rails server```
-Go to browser and type localhost:3000
+- Run ```git checkout feature-branch```
+- Run ```bundle install```
+- Run ```rails db:create```
+- Run ```rails db:migrate```
+- Run ```rails server```
+- Go to browser and type localhost:3000
 
 
 To get a local copy up and running follow these simple example steps.
