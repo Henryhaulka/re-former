@@ -22,6 +22,10 @@
     <%= submit_tag "Save" %>
 <% end %> --!>
 
+
+<% if @user.errors.any? %>
+  <%= @user.errors.full_messages %>
+<% end %>
 <%= form_with model: @user do |form| %>
    <div>
    <%= form.label :username %><br>
